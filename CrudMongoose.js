@@ -29,5 +29,5 @@ const del = async ()=>{
     const data = await product.deleteOne({name:'prakhar'});
     console.log(data)
 }
-del()
+addOne()
 
